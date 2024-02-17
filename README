@@ -1,3 +1,4 @@
+!!!So annoying. For some reason the empty 'input_data' folder isnt appearing in the github repo. Just mkdir input_data and fill it with your input fastq files!!!
 Not sure how well my attempts at making it like usable in other peoples directories went but it works on mine! :) I tried to follow the conventions I've seen in class but like this might be a mess. Good luck!
 For reference my file structure when I made this and ran it sucessfully was...
 

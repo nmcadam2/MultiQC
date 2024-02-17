@@ -9,11 +9,6 @@ TOOL=multiqc
 INPUT=$DIRECTORY/input_data/
 VERSION=1.20
 
-#Singularity Check
-if [ ! $(command -v singularity) ]; then
-        module load singularity
-	echo "loaded singularity"
-fi
 #Fastqc check
 if [ ! $(command -v fastqc) ]; then
         module load bio/2.0

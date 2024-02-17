@@ -1,5 +1,5 @@
 #!/bin/bash
-#$ -M nmcadam2@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q debug
 #$ -N MultiQC-test

@@ -5,5 +5,5 @@ For reference my file structure when I made this and ran it sucessfully was...
 /scratch365/nmcadam2/MultiQC/Run_MultiQC.sh
 /scratch365/nmcadam2/MultiQC/README
 
-To run place fastq files in input data (symlinks should work fine also). Then bash Run_MultiQC.sh. The Run_MultiQC.sh script should be ran from within /MultiQC/ 
-This will perform fastqc on all input files then install the Multiqc container in a directory named image. Multiqc will then be ran on all fastqc outputs to generate a single report. 
+To run place fq or fq.gz files in input data (symlinks should work). Then bash Run_MultiQC.sh. The Run_MultiQC.sh script should be ran from within /MultiQC/ 
+This will perform fastqc on all input files then install the Multiqc container in a directory named image. Multiqc will then be ran on all fastqc outputs to generate a single report. Output will include a multiqc html report.

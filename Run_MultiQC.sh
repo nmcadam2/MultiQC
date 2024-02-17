@@ -6,7 +6,7 @@
 
 DIRECTORY=$(pwd)
 TOOL=multiqc
-INPUT=$DIRECTORY/input_data/
+INPUT=$DIRECTORY/input_data
 VERSION=1.20
 
 #Fastqc check
